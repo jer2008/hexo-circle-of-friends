@@ -16,6 +16,8 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK:
     - {link: "https://blog.jersite.gq/link/", theme: "butterfly"}  # 友链页地址1，修改为你的友链页地址
+    - {link: "https://blog.jersite.gq/link/", theme: "common1"}  # 友链页地址1，修改为你的友链页地址
+    - {link: "https://blog.jersite.gq/link/", theme: "common2"}  # 友链页地址1，修改为你的友链页地址
 #    - {link: "https://noionion.top/link/", theme: "butterfly"} # 友链页地址2
 #    - {link: "https://immmmm.com/about/", theme: "common1"} # 友链页地址3
 
@@ -39,6 +41,8 @@ SETTINGS_FRIENDS_LINKS: {
         ["张洪Heo", "https://blog.zhheo.com/", "https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png"],
         ["Ariasakaの小窝", "https://yisous.xyz/", "https://bu.dusays.com/2022/12/01/638834c74239e.png"],
         ["Jerの博客", "https://blog.jersite.gq/", "https://cdn.luogu.com.cn/upload/usericon/368723.png"],
+        ["呆鱼", "https://daiyu-233.top/", "https://daiyu-233.top/img/avatar.png"],
+        ["Fomalhaut🥝", "https://www.fomal.cc/", "https://www.fomal.cc/assets/avatar.webp"],
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
